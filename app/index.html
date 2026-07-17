@@ -1,0 +1,64 @@
+cat > index.html << 'EOF'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ShopKart - Online Shopping</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">ShopKart</div>
+    <input type="text" class="search-bar" placeholder="Search for products, brands and more">
+    <div class="nav-links">
+      <button class="login-btn">Login</button>
+      <span>Cart</span>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h1>Big Deal Days</h1>
+    <p>Up to 70% off | Deployed via Docker + Jenkins + Terraform 🚀</p>
+  </section>
+
+  <section class="products">
+    <div class="card">
+      <div class="img-box">📱</div>
+      <h3>Smartphone</h3>
+      <p class="price">₹14,999 <span>₹24,999</span></p>
+    </div>
+    <div class="card">
+      <div class="img-box">💻</div>
+      <h3>Laptop</h3>
+      <p class="price">₹42,990 <span>₹59,990</span></p>
+    </div>
+    <div class="card">
+      <div class="img-box">🎧</div>
+      <h3>Headphones</h3>
+      <p class="price">₹1,299 <span>₹2,999</span></p>
+    </div>
+    <div class="card">
+      <div class="img-box">⌚</div>
+      <h3>Smartwatch</h3>
+      <p class="price">₹1,999 <span>₹4,499</span></p>
+    </div>
+    <div class="card">
+      <div class="img-box">👟</div>
+      <h3>Sneakers</h3>
+      <p class="price">₹1,499 <span>₹2,999</span></p>
+    </div>
+    <div class="card">
+      <div class="img-box">📷</div>
+      <h3>Camera</h3>
+      <p class="price">₹27,999 <span>₹35,999</span></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Running inside a Docker container, deployed by Jenkins 🐳</p>
+  </footer>
+
+</body>
+</html>
+EOF
